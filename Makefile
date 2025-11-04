@@ -54,7 +54,7 @@ $(NO_RELINK_PLS): $(OBJ) $(OBJ_BONUS)
 
 $(NAME): $(OBJ)
 	@echo "	\033[1;38;2;246;255;100mDONE OBJ\033[0m"
-	$(AR) $(NAME) $(OBJ)
+	@$(AR) $(NAME) $(OBJ)
 
 $(OBJ_DIR):
 	@mkdir -p $(OBJ_DIR)
@@ -65,6 +65,7 @@ $(OBJ_DIR)/%.o: %.c | $(OBJ_DIR)
 	
 clean:
 	@rm -rf $(OBJ_DIR)
+	@rm -f $(NO_RELINK_PLS)
 	@echo "	\033[48;2;255;100;100;1;38mALL .o CLEAN\033[0m"
 
 fclean: clean
