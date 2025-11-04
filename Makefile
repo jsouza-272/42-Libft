@@ -27,9 +27,9 @@ SRC = ft_isalnum.c ft_isalpha.c ft_isdigit.c \
 	ft_itoa.c ft_strmapi.c ft_striteri.c \
 	ft_putchar_fd.c ft_putstr_fd.c ft_putendl_fd.c ft_putnbr_fd.c
 
-SRC_BONUS = ft_lstadd_back.c ft_lstclear.c ft_lstmap.c \
-			ft_lstnew.c ft_lstadd_front.c ft_lstsize.c \
-			ft_lstlast.c ft_lstdelone.c ft_lstiter.c
+SRC_BONUS = ft_lstadd_back_bonus.c ft_lstclear_bonus.c ft_lstmap_bonus.c \
+			ft_lstnew_bonus.c ft_lstadd_front_bonus.c ft_lstsize_bonus.c \
+			ft_lstlast_bonus.c ft_lstdelone_bonus.c ft_lstiter_bonus.c
 
 
 OBJ_DIR = obj
@@ -38,17 +38,23 @@ OBJ = $(addprefix $(OBJ_DIR)/, $(SRC:.c=.o))
 
 OBJ_BONUS = $(addprefix $(OBJ_DIR)/, $(SRC_BONUS:.c=.o))
 
+NO_RELINK_PLS = .no_relink_pls
+
 all: $(NAME)
 	@echo "	\033[1;5;38;2;100;255;100mDONE $(NAME)\033[0m"
 
-bonus: $(OBJ) $(OBJ_BONUS)
-	@echo "	\033[1;38;2;246;255;100mDONE OBJ\033[0m"
-	@$(AR) $(NAME) $(OBJ) $(OBJ_BONUS)
+bonus: $(NO_RELINK_PLS)
 	@echo "	\033[1;5;38;2;100;255;100mDONE $(NAME)\033[0m"
+
+$(NO_RELINK_PLS): $(OBJ) $(OBJ_BONUS)
+	@echo "	\033[1;38;2;246;255;100mDONE OBJ\033[0m"
+	@touch $(NO_RELINK_PLS)
+	@$(AR) $(NAME) $(OBJ) $(OBJ_BONUS)
+	
 
 $(NAME): $(OBJ)
 	@echo "	\033[1;38;2;246;255;100mDONE OBJ\033[0m"
-	@$(AR) $(NAME) $(OBJ)
+	$(AR) $(NAME) $(OBJ)
 
 $(OBJ_DIR):
 	@mkdir -p $(OBJ_DIR)
