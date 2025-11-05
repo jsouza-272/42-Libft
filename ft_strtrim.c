@@ -6,7 +6,7 @@
 /*   By: jsouza <jsouza@student.42lisboa.com>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/22 15:44:14 by jsouza            #+#    #+#             */
-/*   Updated: 2025/11/03 17:47:35 by jsouza           ###   ########.fr       */
+/*   Updated: 2025/11/05 14:26:07 by jsouza           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -76,6 +76,8 @@ char	*ft_strtrim(const char *s1, const char *set)
 	int		f;
 	char	*s;
 
+	if (!s || !set)
+		return(NULL);
 	i = left_to_right(s1, set);
 	f = rigth_to_left(s1, set);
 	if ((f - i) < 0)
