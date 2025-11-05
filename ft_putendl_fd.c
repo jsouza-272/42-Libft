@@ -6,7 +6,7 @@
 /*   By: jsouza <jsouza@student.42lisboa.com>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/23 16:29:51 by jsouza            #+#    #+#             */
-/*   Updated: 2025/11/05 14:40:20 by jsouza           ###   ########.fr       */
+/*   Updated: 2025/11/05 14:42:48 by jsouza           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ void	ft_putendl_fd(char *s, int fd)
 
 	i = 0;
 	if (!s || fd < 0)
-		return;
+		return ;
 	while (s[i])
 	{
 		write(fd, &s[i], 1);

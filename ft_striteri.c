@@ -6,7 +6,7 @@
 /*   By: jsouza <jsouza@student.42lisboa.com>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/23 15:49:01 by jsouza            #+#    #+#             */
-/*   Updated: 2025/11/05 14:41:26 by jsouza           ###   ########.fr       */
+/*   Updated: 2025/11/05 14:43:03 by jsouza           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char *))
 
 	i = 0;
 	if (!s || !f)
-		return;
+		return ;
 	while (i < ft_strlen(s) + 1 && s[i])
 	{
 		f(i, &s[i]);

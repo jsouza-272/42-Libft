@@ -6,7 +6,7 @@
 /*   By: jsouza <jsouza@student.42lisboa.com>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/20 13:13:29 by jsouza            #+#    #+#             */
-/*   Updated: 2025/11/03 17:46:06 by jsouza           ###   ########.fr       */
+/*   Updated: 2025/11/05 16:50:45 by jsouza           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,8 +30,8 @@ void	*ft_memmove(void *dest, const void *src, size_t n)
 	i = 0;
 	temp_src = src;
 	temp_dst = dest;
-	if (!dest && !src)
-		return (NULL);
+	if (dest == src || n == 0)
+		return (src);
 	if (temp_dst > temp_src)
 	{
 		while (n--)

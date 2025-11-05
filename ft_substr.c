@@ -6,7 +6,7 @@
 /*   By: jsouza <jsouza@student.42lisboa.com>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/22 13:07:00 by jsouza            #+#    #+#             */
-/*   Updated: 2025/11/05 14:25:17 by jsouza           ###   ########.fr       */
+/*   Updated: 2025/11/05 14:43:35 by jsouza           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@ char	*ft_substr(const char *s, unsigned int start, size_t len)
 	i = 0;
 	l = len;
 	if (!s)
-		return(NULL);
+		return (NULL);
 	if (start >= ft_strlen(s))
 		l = 0;
 	else if (len > (ft_strlen(s) - start))
