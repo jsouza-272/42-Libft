@@ -6,7 +6,7 @@
 /*   By: jsouza <jsouza@student.42lisboa.com>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/23 16:26:47 by jsouza            #+#    #+#             */
-/*   Updated: 2025/11/05 14:27:34 by jsouza           ###   ########.fr       */
+/*   Updated: 2025/11/05 14:40:44 by jsouza           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,8 +20,8 @@ void	ft_putstr_fd(char *s, int fd)
 	size_t	i;
 
 	i = 0;
-	if (!s)
-		return(NULL);
+	if (!s || fd < 0)
+		return;
 	while (s[i])
 	{
 		write(fd, &s[i], 1);
