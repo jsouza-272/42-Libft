@@ -61,7 +61,7 @@ $(OBJ_DIR):
 	@echo "	\033[1;38;2;246;255;100mDONE OBJ_DIR\033[0m"
 
 $(OBJ_DIR)/%.o: %.c | $(OBJ_DIR)
-	@$(CC) -I . -c $< -o $@
+	$(CC) -I . -c $< -o $@
 	
 clean:
 	@rm -rf $(OBJ_DIR)
