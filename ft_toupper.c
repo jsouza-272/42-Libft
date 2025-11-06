@@ -6,15 +6,12 @@
 /*   By: jsouza <jsouza@student.42lisboa.com>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/21 11:52:23 by jsouza            #+#    #+#             */
-/*   Updated: 2025/11/03 17:47:47 by jsouza           ###   ########.fr       */
+/*   Updated: 2025/11/06 15:19:35 by jsouza           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-/// @brief 
-/// @param c 
-/// @return 
 int	ft_toupper(int c)
 {
 	if (!(c >= 97 && c <= 122))

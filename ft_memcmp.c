@@ -6,17 +6,12 @@
 /*   By: jsouza <jsouza@student.42lisboa.com>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/21 15:21:06 by jsouza            #+#    #+#             */
-/*   Updated: 2025/11/03 17:45:59 by jsouza           ###   ########.fr       */
+/*   Updated: 2025/11/06 15:15:57 by jsouza           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-/// @brief 
-/// @param s1 
-/// @param s2 
-/// @param n 
-/// @return 
 int	ft_memcmp(const void *s1, const void *s2, size_t n)
 {
 	const unsigned char	*p1;

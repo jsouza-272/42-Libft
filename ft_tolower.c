@@ -6,15 +6,12 @@
 /*   By: jsouza <jsouza@student.42lisboa.com>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/21 12:17:29 by jsouza            #+#    #+#             */
-/*   Updated: 2025/11/03 17:47:43 by jsouza           ###   ########.fr       */
+/*   Updated: 2025/11/06 15:19:31 by jsouza           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-/// @brief 
-/// @param c 
-/// @return 
 int	ft_tolower(int c)
 {
 	if (!(c >= 65 && c <= 90))

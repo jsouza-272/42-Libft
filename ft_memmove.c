@@ -6,7 +6,7 @@
 /*   By: jsouza <jsouza@student.42lisboa.com>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/20 13:13:29 by jsouza            #+#    #+#             */
-/*   Updated: 2025/11/06 11:30:13 by jsouza           ###   ########.fr       */
+/*   Updated: 2025/11/06 15:16:23 by jsouza           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,11 +16,6 @@
 #include <string.h>
 #include <strings.h>
 
-/// @brief 
-/// @param dest 
-/// @param src 
-/// @param n 
-/// @return 
 void	*ft_memmove(void *dest, const void *src, size_t n)
 {
 	size_t				i;

@@ -6,15 +6,12 @@
 /*   By: jsouza <jsouza@student.42lisboa.com>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/23 16:26:47 by jsouza            #+#    #+#             */
-/*   Updated: 2025/11/05 14:42:54 by jsouza           ###   ########.fr       */
+/*   Updated: 2025/11/06 15:17:21 by jsouza           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-/// @brief 
-/// @param s 
-/// @param fd 
 void	ft_putstr_fd(char *s, int fd)
 {
 	size_t	i;

@@ -6,15 +6,12 @@
 /*   By: jsouza <jsouza@student.42lisboa.com>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/28 18:22:18 by jsouza            #+#    #+#             */
-/*   Updated: 2025/11/03 17:45:24 by jsouza           ###   ########.fr       */
+/*   Updated: 2025/11/06 15:10:29 by jsouza           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-
-/// @brief 
-/// @param lst 
-/// @param  
+ 
 void	ft_lstadd_back(t_list **lst, t_list *new)
 {
 	t_list	*tmp;

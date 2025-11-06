@@ -6,7 +6,7 @@
 /*   By: jsouza <jsouza@student.42lisboa.com>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/21 16:49:35 by jsouza            #+#    #+#             */
-/*   Updated: 2025/11/03 18:08:58 by jsouza           ###   ########.fr       */
+/*   Updated: 2025/11/06 15:20:16 by jsouza           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,11 +17,6 @@ static int	whitespace(int c)
 	return ((c >= 9 && c <= 13) || c == 32);
 }
 
-/// @brief The  atoi() function converts the initial 
-///portion of the string pointed to by nptr to int.  
-///The behav‐ior is the same as
-/// @param nptr 
-/// @return The converted value or 0 on error.
 int	ft_atoi(const char *nptr)
 {
 	int	i;

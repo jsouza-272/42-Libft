@@ -6,17 +6,12 @@
 /*   By: jsouza <jsouza@student.42lisboa.com>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/21 14:27:39 by jsouza            #+#    #+#             */
-/*   Updated: 2025/11/03 17:47:09 by jsouza           ###   ########.fr       */
+/*   Updated: 2025/11/06 15:18:35 by jsouza           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-/// @brief 
-/// @param s1 
-/// @param s2 
-/// @param n 
-/// @return 
 int	ft_strncmp(const char *s1, const char *s2, size_t n)
 {
 	size_t	i;

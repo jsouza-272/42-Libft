@@ -6,17 +6,12 @@
 /*   By: jsouza <jsouza@student.42lisboa.com>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/29 14:45:17 by jsouza            #+#    #+#             */
-/*   Updated: 2025/11/04 15:11:05 by jsouza           ###   ########.fr       */
+/*   Updated: 2025/11/06 15:15:25 by jsouza           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-/// @brief 
-/// @param lst 
-/// @param f 
-/// @param del 
-/// @return 
 t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 {
 	t_list	*nhead;

@@ -6,17 +6,12 @@
 /*   By: jsouza <jsouza@student.42lisboa.com>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/22 13:07:00 by jsouza            #+#    #+#             */
-/*   Updated: 2025/11/05 14:43:35 by jsouza           ###   ########.fr       */
+/*   Updated: 2025/11/06 15:19:01 by jsouza           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-/// @brief 
-/// @param s 
-/// @param start 
-/// @param len 
-/// @return 
 char	*ft_substr(const char *s, unsigned int start, size_t len)
 {
 	size_t	i;

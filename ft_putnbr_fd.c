@@ -6,15 +6,12 @@
 /*   By: jsouza <jsouza@student.42lisboa.com>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/23 16:31:41 by jsouza            #+#    #+#             */
-/*   Updated: 2025/11/06 14:35:05 by jsouza           ###   ########.fr       */
+/*   Updated: 2025/11/06 15:17:08 by jsouza           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-/// @brief 
-/// @param n 
-/// @param fd 
 void	ft_putnbr_fd(int n, int fd)
 {
 	long	nb;

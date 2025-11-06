@@ -6,15 +6,12 @@
 /*   By: jsouza <jsouza@student.42lisboa.com>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/29 14:30:12 by jsouza            #+#    #+#             */
-/*   Updated: 2025/11/03 17:45:35 by jsouza           ###   ########.fr       */
+/*   Updated: 2025/11/06 15:19:44 by jsouza           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-/// @brief 
-/// @param lst 
-/// @param f 
 void	ft_lstiter(t_list *lst, void (*f)(void *))
 {
 	if (!lst || !f)

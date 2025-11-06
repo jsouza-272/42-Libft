@@ -6,15 +6,12 @@
 /*   By: jsouza <jsouza@student.42lisboa.com>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/17 13:10:38 by jsouza            #+#    #+#             */
-/*   Updated: 2025/11/03 17:47:00 by jsouza           ###   ########.fr       */
+/*   Updated: 2025/11/06 15:18:20 by jsouza           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <string.h>
 
-/// @brief 
-/// @param s 
-/// @return 
 size_t	ft_strlen(const char *s)
 {
 	size_t	l;

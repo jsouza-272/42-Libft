@@ -6,17 +6,12 @@
 /*   By: jsouza <jsouza@student.42lisboa.com>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/21 14:44:37 by jsouza            #+#    #+#             */
-/*   Updated: 2025/11/03 17:45:56 by jsouza           ###   ########.fr       */
+/*   Updated: 2025/11/06 15:15:49 by jsouza           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-/// @brief 
-/// @param s 
-/// @param c 
-/// @param n 
-/// @return 
 void	*ft_memchr(const void *s, int c, size_t n)
 {
 	size_t			i;

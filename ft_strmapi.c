@@ -6,16 +6,12 @@
 /*   By: jsouza <jsouza@student.42lisboa.com>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/23 15:10:14 by jsouza            #+#    #+#             */
-/*   Updated: 2025/11/05 14:43:25 by jsouza           ###   ########.fr       */
+/*   Updated: 2025/11/06 15:18:24 by jsouza           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-/// @brief 
-/// @param s 
-/// @param f 
-/// @return 
 char	*ft_strmapi(const char *s, char (*f)(unsigned int, char))
 {
 	char	*str;

@@ -81,6 +81,7 @@ test: fclean bonus
 	@rm -f test
 	@rm -rf $(OBJ_DIR)
 	@rm -f $(NAME)
+	@rm -f $(NO_RELINK_PLS)
 	@echo "	|	\033[48;2;255;0;0;5;1;38;2;255;255;255mall clean\033[0m"
 
 .PHONY: all clean fclean re test bonus

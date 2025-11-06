@@ -6,13 +6,10 @@
 /*   By: jsouza <jsouza@student.42lisboa.com>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/17 11:57:30 by jsouza            #+#    #+#             */
-/*   Updated: 2025/11/03 17:45:05 by jsouza           ###   ########.fr       */
+/*   Updated: 2025/11/06 15:20:00 by jsouza           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-/// @brief 
-/// @param c 
-/// @return 
 int	ft_isascii(int c)
 {
 	if (c >= 0 && c <= 127)

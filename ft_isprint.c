@@ -6,13 +6,10 @@
 /*   By: jsouza <jsouza@student.42lisboa.com>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/17 13:08:07 by jsouza            #+#    #+#             */
-/*   Updated: 2025/11/03 17:45:14 by jsouza           ###   ########.fr       */
+/*   Updated: 2025/11/06 15:19:50 by jsouza           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-/// @brief 
-/// @param c 
-/// @return 
 int	ft_isprint(int c)
 {
 	if (c >= 32 && c <= 126)

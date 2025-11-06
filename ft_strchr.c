@@ -6,16 +6,12 @@
 /*   By: jsouza <jsouza@student.42lisboa.com>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/21 12:26:30 by jsouza            #+#    #+#             */
-/*   Updated: 2025/11/03 17:46:25 by jsouza           ###   ########.fr       */
+/*   Updated: 2025/11/06 15:17:31 by jsouza           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-/// @brief 
-/// @param s 
-/// @param c 
-/// @return 
 char	*ft_strchr(const char *s, int c)
 {
 	size_t			i;

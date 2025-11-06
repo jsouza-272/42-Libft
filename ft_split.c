@@ -6,7 +6,7 @@
 /*   By: jsouza <jsouza@student.42lisboa.com>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/23 09:59:41 by jsouza            #+#    #+#             */
-/*   Updated: 2025/11/04 10:11:10 by jsouza           ###   ########.fr       */
+/*   Updated: 2025/11/06 15:17:25 by jsouza           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -64,16 +64,6 @@ static char	**free_all(char **arr)
 	return (NULL);
 }
 
-/*free(arr[0])*/
-
-/// @brief Allocates memory (using malloc(3)) and returns an
-///array of strings obtained by splitting ’s’ using
-///the character ’c’ as a delimiter. The array must
-///end with a NULL pointer.
-/// @param s 
-/// @param c 
-/// @return The array of new strings resulting from the split.
-///NULL if the allocation fails.
 char	**ft_split(const char *s, char c)
 {
 	char	**arr;

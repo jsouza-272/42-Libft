@@ -6,7 +6,7 @@
 /*   By: jsouza <jsouza@student.42lisboa.com>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/22 15:09:01 by jsouza            #+#    #+#             */
-/*   Updated: 2025/11/05 14:51:24 by jsouza           ###   ########.fr       */
+/*   Updated: 2025/11/06 15:18:01 by jsouza           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,10 +26,6 @@ static size_t	ft_strlen(const char *s)
 	return (l);
 }
 
-/// @brief 
-/// @param s1 
-/// @param s2 
-/// @return 
 char	*ft_strjoin(const char *s1, const char *s2)
 {
 	char	*s;

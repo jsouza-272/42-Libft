@@ -6,13 +6,10 @@
 /*   By: jsouza <jsouza@student.42lisboa.com>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/17 10:44:21 by jsouza            #+#    #+#             */
-/*   Updated: 2025/11/03 17:45:08 by jsouza           ###   ########.fr       */
+/*   Updated: 2025/11/06 15:19:54 by jsouza           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-/// @brief 
-/// @param c 
-/// @return 
 int	ft_isdigit(int c)
 {
 	if (c >= 48 && c <= 57)

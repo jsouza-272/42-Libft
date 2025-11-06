@@ -6,7 +6,7 @@
 /*   By: jsouza <jsouza@student.42lisboa.com>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/23 14:10:00 by jsouza            #+#    #+#             */
-/*   Updated: 2025/11/03 17:45:19 by jsouza           ###   ########.fr       */
+/*   Updated: 2025/11/06 15:10:14 by jsouza           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,9 +32,6 @@ static size_t	int_len(long n)
 	return (i);
 }
 
-/// @brief 
-/// @param n 
-/// @return 
 char	*ft_itoa(int n)
 {
 	char	*str;
