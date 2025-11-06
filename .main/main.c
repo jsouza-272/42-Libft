@@ -6,11 +6,11 @@
 /*   By: jsouza <jsouza@student.42lisboa.com>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/30 10:42:03 by jsouza            #+#    #+#             */
-/*   Updated: 2025/11/03 14:33:09 by jsouza           ###   ########.fr       */
+/*   Updated: 2025/11/06 14:52:41 by jsouza           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <libft.h>
+#include "../libft.h"
 
 void ft_print_hex(void *s, int size)
 {
@@ -419,6 +419,16 @@ void lstsize_test()
     printf("\n\t*******LSTSIZE*******\n\n");
     printf("%d, %d, %d", *(int *)head->content, *(int *)head->next->content, *(int *)head->next->next->content);
 }
+void strtrim_test()
+{
+	char	*s1 = "      lorem \n ipsum \t dolor \n sit \t amet      ";
+	char	*set = " ";
+    char *trimed = ft_strtrim(s1, set);
+
+	printf("%s\n", trimed);
+}
+
+
 int main()
 {
     atoi_test();
@@ -434,4 +444,5 @@ int main()
     lstadd_front_test();
     lstclear_test();
     lstsize_test();
+    strtrim_test();
 }
